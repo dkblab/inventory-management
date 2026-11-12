@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: mobile-admin-dashboard
+expected_outcome: |
+  A left sidebar replaces the top nav, collapses to an icon rail and then an off-canvas drawer on narrow screens, with no horizontal page scroll at 390px and the build passing.

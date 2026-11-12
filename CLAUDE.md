@@ -70,7 +70,9 @@ npm install && npm run dev
 - Styles: `client/src/App.vue`
 
 ## Design System
-- Colors: Slate/gray (#0f172a, #64748b, #e2e8f0)
-- Status: green/blue/yellow/red
+- Colors: Slate neutrals (#0f172a, #64748b, #e2e8f0) with an indigo accent (#4f46e5) and a dark slate sidebar (#0f172a)
+- Status: green (#16a34a), blue (#2563eb), amber (#d97706), red (#dc2626); use only to communicate status
+- Layout: fixed left sidebar navigation (248px) with a slim top bar, not a top nav
+- Tokens: define colors, 4px-based spacing, radii, shadows, and z-indexes as CSS variables in `client/src/styles/tokens.css`; use `var(--...)` instead of literal values
 - Charts: Custom SVG, CSS Grid for layouts
 - No emojis in UI
