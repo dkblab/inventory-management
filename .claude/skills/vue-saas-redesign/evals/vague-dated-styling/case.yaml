@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: vague-dated-styling
+expected_outcome: |
+  The app gets a cohesive modern look with a shared token system and a left sidebar, with consistent spacing across pages, routes unchanged, and the build passing.
